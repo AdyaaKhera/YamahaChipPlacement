@@ -81,13 +81,13 @@ Two designs were explored:
 	</tr>
 </table>
 
-The 2-piece PLA holder used M5 screws and nuts for a rigid mount. The 1-piece TPU snap-fit holder was intended to reduce fasteners, but it was too flexible to keep the sensor upright once the tubing and cable load was applied. The 2-piece PLA design was ultimately used because it was more rigid and better suited for fast, repeatable motion.
+The 2-piece PLA holder used M5 screws and nuts for a rigid mount. The 1-piece TPU snap-fit holder was intended to reduce fasteners, but it was too flexible to keep the sensor upright once the sensor and cable load was applied. The 2-piece PLA design was ultimately used because it was more rigid and better suited for fast, repeatable motion.
 
 ### Sensors, I/O, and Indicators
 
 - Binary inductive proximity sensor: detected whether a chip was present at the sensing location
 - Reflective metallic tape: added to the top of each chip so the sensor could detect it
-- Digital output for suction: activated and released the end-effector
+- Digital output for suction: activated and deactivated to pick and release the chips
 - Indicator light output: used to show program start and completion
 
 ### Mechanical Considerations
