@@ -18,7 +18,7 @@
 
 <table>
 	<tr>
-		<td width="58%" valign="top">
+		<td width="40%" valign="top">
 			<table>
 				<tr><th align="left">Item</th><th align="left">Details</th></tr>
 				<tr><td>Course</td><td>MFET 248</td></tr>
@@ -37,7 +37,7 @@
 				<tr><td>Timeline</td><td>Two-week development window</td></tr>
 			</table>
 		</td>
-		<td width="42%" valign="top" align="center">
+		<td width="60%" valign="top" align="center">
 			<a href="assets/working.gif">
 				<img src="assets/working.gif" alt="Working demonstration showing the completed chip placement routine" width="100%" />
 			</a>
