@@ -53,6 +53,13 @@ The robot was programmed to:
 - Place each chip into a predefined 3 x 5 grid
 - Signal the end of the program with indicator lights
 
+
+<p align="center">
+	<img src="assets/end-effector-with-chips-placed.png" alt="End effector with chips placed after a successful pickup and placement run" width="96%" />
+	<br />
+	<em>End effector with chips placed</em>
+</p>
+
 ## Hardware
 
 ### End-of-Arm Tooling
