@@ -18,26 +18,19 @@
 
 <table>
 	<tr>
-		<td width="40%" valign="top">
-			<table style="font-size: 0.9em; word-wrap: break-word; white-space: normal;">
-				<tr><th align="left" style="padding: 4px;">Item</th><th align="left" style="padding: 4px;">Details</th></tr>
-				<tr><td style="padding: 4px;">Course</td><td style="padding: 4px;">MFET 248</td></tr>
-				<tr><td style="padding: 4px;">Team</td><td style="padding: 4px;">Adyaa Khera, Gabriella Thalos</td></tr>
-				<tr><td style="padding: 4px;">Lab Section</td><td style="padding: 4px;">Thursday 11:30-1:20pm</td></tr>
-				<tr><td style="padding: 4px;">Robot</td><td style="padding: 4px;">Yamaha SCARA</td></tr>
-				<tr><td style="padding: 4px;">Controller</td><td style="padding: 4px;">RCX Studio / RCX 340</td></tr>
-				<tr><td style="padding: 4px;">Task</td><td style="padding: 4px;">Pick and place 15 chips into a 3 x 5 grid</td></tr>
-				<tr><td style="padding: 4px;">Source Stacks</td><td style="padding: 4px;">Two stacks: 10 chips and 5 chips</td></tr>
-				<tr><td style="padding: 4px;">Placement Points</td><td style="padding: 4px;">15 target points</td></tr>
-				<tr><td style="padding: 4px;">Sensing</td><td style="padding: 4px;">Binary inductive proximity sensor with reflective tape on each chip</td></tr>
-				<tr><td style="padding: 4px;">I/O</td><td style="padding: 4px;">Suction control and status indicator lights</td></tr>
-				<tr><td style="padding: 4px;">End Effector</td><td style="padding: 4px;">Suction pickup with custom sensor holder</td></tr>
-				<tr><td style="padding: 4px;">Programming Mode</td><td style="padding: 4px;">Offline point teaching in POWER mode with servos off</td></tr>
-				<tr><td style="padding: 4px;">Execution Logic</td><td style="padding: 4px;">Two WHILE loops with GETCHIP subroutines and SELECT/CASE placement</td></tr>
-				<tr><td style="padding: 4px;">Timeline</td><td style="padding: 4px;">Two-week development window</td></tr>
+		<td width="45%" valign="top">
+			<table style="width: 100%; font-size: 0.95em;">
+				<tr><th align="left" style="padding: 6px;">Item</th><th align="left" style="padding: 6px;">Details</th></tr>
+				<tr><td style="padding: 6px;">Course</td><td style="padding: 6px;">MFET 248</td></tr>
+				<tr><td style="padding: 6px;">Team</td><td style="padding: 6px;">Adyaa Khera, Gabriella Thalos</td></tr>
+				<tr><td style="padding: 6px;">Robot</td><td style="padding: 6px;">Yamaha SCARA</td></tr>
+				<tr><td style="padding: 6px;">Controller</td><td style="padding: 6px;">RCX Studio / RCX 340</td></tr>
+				<tr><td style="padding: 6px;">Task</td><td style="padding: 6px;">Pick and place 15 chips into a 3 x 5 grid</td></tr>
+				<tr><td style="padding: 6px;">Sensing</td><td style="padding: 6px;">Binary inductive proximity sensor with reflective tape</td></tr>
+				<tr><td style="padding: 6px;">End Effector</td><td style="padding: 6px;">Suction pickup with custom sensor holder</td></tr>
 			</table>
 		</td>
-		<td width="60%" valign="top" align="center">
+		<td width="55%" valign="top" align="center">
 			<a href="assets/working.gif">
 				<img src="assets/working.gif" alt="Working demonstration showing the completed chip placement routine" width="100%" />
 			</a>
