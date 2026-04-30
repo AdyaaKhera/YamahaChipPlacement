@@ -106,6 +106,8 @@ The holder design had to account for:
 
 The robot program was written in RCX Studio / RCX 340 and organized around taught points and conditional logic.
 
+The source program is available in [chip-placement.rcx](chip-placement.rcx).
+
 ### Programming Approach
 
 The workflow used a combination of:

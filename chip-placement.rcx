@@ -1,0 +1,100 @@
+SPEED 30
+ASPEED 50
+
+MOVE P, AGHOME
+
+COUNT = 0
+DO2(5) = 1
+
+
+*START5:
+MOVE P, STACK5P
+WHILE COUNT < 5
+    DRIVE (3,AGGround),STOPON DI2(2) = 1
+    IF DI2(2) = 1 THEN
+        COUNT = COUNT + 1
+        GOTO *GETCHIP5
+    ENDIF
+WEND
+
+
+*START10:
+MOVE P, STACK10P
+WHILE COUNT < 15
+    DRIVE (3,AGGround),STOPON DI2(2) = 1
+    IF DI2(2) = 1 THEN
+        COUNT = COUNT + 1
+        GOTO *GETCHIP10
+    ENDIF
+WEND
+
+
+DO2(4) = 1
+DELAY 1000
+DO(2)4 = 0
+DO(2)5 = 0
+HALTALL
+
+
+*GETCHIP5:
+    AGCHIP = WHERE
+    DRIVE(3, 150000)'
+    DRIVE(2, STACK5EE)
+    DRIVE(1, STACK5EE)
+    DRIVE (3, AGCHIP)
+    ZAX = LOC3(AGCHIP)  
+    DO2(0) = 1
+    MOVE P, AGHOME
+    DELAY 1000
+    SELECT COUNT
+        CASE 1
+            MOVE P, AG1
+        CASE 2
+            MOVE P, AG2
+        CASE 3
+            MOVE P, AG3
+        CASE 4
+            MOVE P, AG4
+        CASE 5
+            MOVE P, AG5
+    END SELECT
+    DO2(0)=0
+    GOTO *START5
+
+
+*GETCHIP10:
+    AGCHIP = WHERE
+    DRIVE(3, 130000)'
+    DRIVE(2, STACK10EE)
+    DRIVE(1, STACK10EE)
+    DRIVE (3, AGCHIP)
+    ZAX = LOC3(AGCHIP)  
+    DO2(0) = 1
+    MOVE P, AGHOME
+    DELAY 1000
+    SELECT COUNT
+        CASE 6
+            MOVE P, AG6
+        CASE 7
+            MOVE P, AG7
+        CASE 8
+            MOVE P, AG8
+        CASE 9
+            MOVE P, AG9
+        CASE 10
+            MOVE P, AG10
+        CASE 11
+            MOVE P, AG11
+        CASE 12
+            MOVE P, AG12
+        CASE 13
+            MOVE P, AG13
+        CASE 14
+            MOVE P, AG14
+        CASE 15
+            MOVE P, AG15
+        CASE 16
+            HALT
+    END SELECT
+    DO2(0)=0
+    GOTO *START10
