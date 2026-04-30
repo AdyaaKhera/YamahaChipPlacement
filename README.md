@@ -11,7 +11,7 @@
 <p align="center">A Yamaha SCARA robot programmed to pick up 15 poker chips from two source stacks and place them into a precise 3 x 5 flat pattern using suction and a binary inductive proximity sensor.</p>
 
 <p align="center">
-	<a href="#hardware"><strong>Hardware</strong></a> · <a href="#software"><strong>Software</strong></a> · <a href="#media"><strong>Media</strong></a>
+	<a href="#hardware"><strong>Hardware</strong></a> · <a href="#software"><strong>Software</strong></a>
 </p>
 
 ## Project at a Glance
