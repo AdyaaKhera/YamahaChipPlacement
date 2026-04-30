@@ -11,14 +11,13 @@
 <p align="center">A Yamaha SCARA robot programmed to pick up 15 poker chips from two source stacks and place them into a precise 3 x 5 flat pattern using suction and a binary inductive proximity sensor.</p>
 
 <p align="center">
-	<a href="#hardware"><strong>Hardware</strong></a> · <a href="#software"><strong>Software</strong></a>
-</p>
+	<a href="#hardware"><strong>Hardware</strong></a> · <a href="#software"><strong>Software</strong></a> 
 
 ## Project at a Glance
 
 <table>
 	<tr>
-		<td width="58%" valign="top">
+		<td width="50%" valign="top">
 			<table>
 				<tr><th align="left">Item</th><th align="left">Details</th></tr>
 				<tr><td>Course</td><td>MFET 248</td></tr>
@@ -37,7 +36,7 @@
 				<tr><td>Timeline</td><td>Two-week development window</td></tr>
 			</table>
 		</td>
-		<td width="42%" valign="top" align="center">
+		<td width="50%" valign="top" align="center">
 			<a href="assets/working.gif">
 				<img src="assets/working.gif" alt="Working demonstration showing the completed chip placement routine" width="100%" />
 			</a>
